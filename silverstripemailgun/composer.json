@@ -14,15 +14,10 @@
     },
     "autoload": {
         "psr-4": {
-            "SilverStripers\\silverstripe-mailgun\\Extensions\\": "src/Extensions",
             "SilverStripers\\silverstripe-mailgun\\Fields\\": "src/Models"
         }
     },
     "extra": {
-        "expose": [
-            "client/dist",
-            "client/lang"
-        ],
         "installer-name": "silverstripe-mailgun"
     }
 
