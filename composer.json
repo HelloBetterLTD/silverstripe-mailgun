@@ -10,11 +10,11 @@
         "email": "pramesh@silverstripers.com"
     }],
     "require": {
-        "silverstripe/recipe-cms": "^4.2.0"
+        "silverstripe/recipe-cms": "^4.0.0"
     },
     "autoload": {
         "psr-4": {
-            "SilverStripers\\silverstripe-mailgun\\Fields\\": "src/Models"
+            "SilverStripers\\silverstripe-mailgun\\Models\\": "src/Models"
         }
     },
     "extra": {
