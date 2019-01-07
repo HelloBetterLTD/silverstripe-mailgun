@@ -3,7 +3,7 @@ Mailgun integration for SilverStripe
 
 Create a configfile with following contents
 
-```yaml
+```
 
 ---
 Name: silverstripemailgun
@@ -13,4 +13,12 @@ SilverStripers\silverstripemailgun\Models\SilverStripersMailer:
   SMTPpassword: 'Your mailgun password'
   
   
+```
+
+## Installation
+
+Use composer to install on your SilverStripe 4 website.
+
+```
+composer require silverstripers/silverstripe-mailgun dev-master
 ```
