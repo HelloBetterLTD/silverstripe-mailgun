@@ -1,10 +1,3 @@
-# silverstripe-mailgun
-Mailgun integration for SilverStripe ^4
-
-Create a config file with following contents in the mysite/_config directory
-
-```
-
 ---
 Name: myemailconfig
 After:
@@ -19,6 +12,8 @@ SilverStripe\Core\Injector\Injector:
     calls:
       Username: [ setUsername, ['<your SMTP username>'] ]
       Password: [ setPassword, ['<your SMTP password>'] ]
-  
-  
-```
+
+
+
+
+
