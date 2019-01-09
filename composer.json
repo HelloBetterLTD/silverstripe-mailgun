@@ -12,11 +12,6 @@
     "require": {
         "silverstripe/recipe-cms": "^4.0.0"
     },
-    "autoload": {
-        "psr-4": {
-            "SilverStripers\\silverstripe-mailgun\\Models\\": "src/Models"
-        }
-    },
     "extra": {
         "installer-name": "silverstripe-mailgun"
     }
